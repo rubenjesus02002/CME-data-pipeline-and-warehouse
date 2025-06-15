@@ -1,9 +1,7 @@
 # Project-9-Data-Warehouse-setup-for-CME-data
 
 ## A. Problem Context
-Provide a brief description of the problem you're addressing. Include any background information necessary to understand the project.
-
-*Problem description goes here.*
+The goal of this project is to set up a data warehouse that integrates Chicago Mercantile Exchange (CME) along with related reference data focused on commodities trading. The goal is to integrate trade data with related reference information such as asset types, contract details, and trade volumes to enable efficient analysis. One of the key objectives is to identify the most frequently traded assets in the commodities market, providing insights into market activity and supporting data-driven decision-making.
 
 ## B. Requirements
 
