@@ -7,31 +7,39 @@ The goal of this project is to set up a data warehouse that integrates Chicago M
 
 ### 1. Requirements Analysis
 - Business Personas
-  - List the key stakeholders and their roles.
-  - Example:
-    - Data Analyst: Responsible for data analysis and reporting.
+  - Key stakeholders and their roles.
     - IT Manager: Oversees technical implementation.
+    - Project Manager: Coordinates team tasks, timelines, and communication.
+    - Data Analyst: Responsible for data analysis and reporting.
+    - Data Engineer: Builds and maintains data pipelines and infrastructure.
+
 - Risks
   - Identify potential risks and challenges.
-  - Example:
-    - Data privacy concerns
+    - Data privacy concerns: Sensative Data 
     - Integration with existing systems
+    - Data Quality Issues: Inconsistent, incomplete, or inaccurate data
+    - Scalability Limitations: The system may struggle to handle increased data volume over time.
+    - Stakeholder Misalignment: Conflicting priorities between business and tech team. 
+    - Skill Gaps: Lack of knowledge with sepcific tools.
+      
+- Tech Stack
+  - AWS
+  - SQL
+  - Tableau
+  - Redshift
+  
 - Costs
-  - Estimate the costs associated with the project.
-  - Example:
-    - Software licenses: $X
-    - Hardware upgrades: $Y
+  - No costs incurreed. All necessary tools were provided by Baruch College.
+    
 - Timeline
-  - Provide a high-level timeline for the project.
-  - Example:
-    - Phase 1: Requirements Gathering (Month 1)
-    - Phase 2: Development (Months 2-4)
-    - Phase 3: Testing and Deployment (Month 5)
+    - Phase 1: Requirements Analysis (Day 1)
+    - Phase 2: Development (Week 2)
+    - Phase 3: Testing and Deployment (Week 3)
+      
 - Benefits
-  - Outline the expected benefits of the project.
-  - Example:
-    - Improved data accuracy
-    - Enhanced decision-making capabilities
+    - Provide insights into market activity
+    - Support data-driven decision-making
+    - Help stakeholders understand where trade volume is most prominent
 
 ### 2. Business Requirements
 - List the high-level business goals and objectives the project aims to achieve.
