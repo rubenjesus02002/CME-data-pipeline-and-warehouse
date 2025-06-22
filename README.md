@@ -23,10 +23,10 @@ The goal of this project is to set up a data warehouse that integrates Chicago M
     - Skill Gaps: Lack of knowledge with sepcific tools.
       
 - Tech Stack
-  - AWS
+  - Azure
   - SQL
   - Tableau
-  - Redshift
+  - Big Query
   
 - Costs
   - No costs incurreed. All necessary tools were provided by Baruch College.
