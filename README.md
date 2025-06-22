@@ -42,22 +42,16 @@ The goal of this project is to set up a data warehouse that integrates Chicago M
     - Help stakeholders understand where trade volume is most prominent
 
 ### 2. Business Requirements
-- List the high-level business goals and objectives the project aims to achieve.
-- Example:
-  - Reduce operational costs
-  - Improve data accessibility for decision-makers
+	◦	Set up a data warehouse containing CME data and related reference data.
+	◦	What is the top most traded assets in the commodities area.
 
 ### 3. Functional Requirements
-- List the functional requirements for the project, detailing the core features and actions.
-- Example:
-  - System must allow users to query and analyze data
-  - Data entry form must support multiple input types
+	◦	Track most traded securities and assets by exchange for the commodities
+	◦	Aggregate revenue data by commodities and asset types, drilled down by week.
 
 ### 4. Data Requirements
-- Outline the types and sources of data required for the project.
-- Example:
-  - Structured data from internal databases
-  - Unstructured data from external sources (e.g., social media, surveys)
+	◦	CME data (provided by the professor).
+	◦	Reference data for securities and commodities.
 
 ## C. Architecture
 
