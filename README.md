@@ -57,8 +57,7 @@ The goal of this project is to set up a data warehouse that integrates Chicago M
 
 ### 1. Information Architecture
 - Describe the structure and flow of the information.
-- Include diagrams or images if necessary. 
-![image](https://github.com/user-attachments/assets/4d014130-a906-4662-a6ba-8b49e8960c2a)
+Diagram: ![image](https://github.com/user-attachments/assets/4d014130-a906-4662-a6ba-8b49e8960c2a)
 
 ### 2. Data Architecture
 - Describe the structure and flow of the data.
