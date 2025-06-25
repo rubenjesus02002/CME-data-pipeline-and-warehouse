@@ -1,4 +1,4 @@
-# Project-9-Data-Warehouse-setup-for-CME-data
+![image](https://github.com/user-attachments/assets/2cbe6a32-1968-4e6b-a5bd-6b228aea4ac6)# Project-9-Data-Warehouse-setup-for-CME-data
 
 ## A. Problem Context
 The goal of this project is to set up a data warehouse that integrates Chicago Mercantile Exchange (CME) along with related reference data focused on commodities trading. The goal is to integrate trade data with related reference information such as asset types, contract details, and trade volumes to enable efficient analysis. One of the key objectives is to identify the most frequently traded assets in the commodities market, providing insights into market activity and supporting data-driven decision-making.
@@ -25,6 +25,7 @@ The goal of this project is to set up a data warehouse that integrates Chicago M
 - Tech Stack
   - Azure
   - SQL
+  - Python
   - Tableau
   - Big Query
   
@@ -32,9 +33,10 @@ The goal of this project is to set up a data warehouse that integrates Chicago M
   - No costs incurreed. All necessary tools were provided by Baruch College.
     
 - Timeline
-    - Phase 1: Requirements Analysis (Day 1)
-    - Phase 2: Development (Week 2)
-    - Phase 3: Testing and Deployment (Week 3)
+    - Phase 1: Problem Context: Requirements Analysis (Week 1)
+    - Phase 2: Requirements: Business, Functional and Data Requirements (Week 2)
+    - Phase 3: Architecture: Information, Data and Technical Architecture (Week 3)
+    - Phase 4: Modeling: Dimensional/ Medallion Modeling (Week 4) 
       
 - Benefits
     - Provide insights into market activity
@@ -58,7 +60,7 @@ The goal of this project is to set up a data warehouse that integrates Chicago M
 ### 1. Information Architecture
 - Describe the structure and flow of the information.
 - Include diagrams or images if necessary. 
-  - ![Information Architecture Diagram](path_to_image)
+![image](https://github.com/user-attachments/assets/4d014130-a906-4662-a6ba-8b49e8960c2a)
 
 ### 2. Data Architecture
 - Describe the structure and flow of the data.
@@ -71,10 +73,6 @@ The goal of this project is to set up a data warehouse that integrates Chicago M
   - Example: 
     - Python for data analysis
     - Azure for cloud computing
-
-### 4. Product Architecture
-- Provide an overview of the product's overall structure.
-- Include any major components and how they interact.
 
 ## D. Modeling
 
