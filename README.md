@@ -61,9 +61,7 @@ Diagram: ![image](https://github.com/user-attachments/assets/4d014130-a906-4662-
 
 ### 2. Data Architecture
 - Describe the structure and flow of the data.
-- Include diagrams or images if necessary. 
-  - ![Data Architecture Diagram](path_to_image)
-
+](https://app.eraser.io/workspace/dYYho9B2s7NpcMDpAAiS?origin=share)
 ### 3. Technical Architecture
 - Define the software and hardware systems involved in the project.
 - List any key technologies, tools, or platforms used. 
