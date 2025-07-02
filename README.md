@@ -59,8 +59,11 @@ Diagram: ![image](https://github.com/user-attachments/assets/4d014130-a906-4662-
 - Define the software and hardware systems involved in the project.
     - Python for data analysis
     - Azure for cloud computing
+    - Google Big Query for data warehousing
+    - MySQL for data transformation
+    - DBT for data transformation
     - Tableau for Visualization
-    - Big Query 
+
 
 ## D. Modeling
 
