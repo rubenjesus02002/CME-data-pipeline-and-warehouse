@@ -70,11 +70,8 @@ Diagram: ![image](https://github.com/user-attachments/assets/4d014130-a906-4662-
 ### 1. Dimensional Modeling
 - Explain the dimensional modeling
 - Example:
-  - **Facts**: describe all the facts
-  - **Dimension**: include all dimensions
+ ![Uploading image.png…]()
 
-*Include any necessary images or diagrams to clarify the architecture.*
-  - ![Dimensional Modeling Diagram](path_to_image)
 
 
 ### 2. Medallion Architecture
