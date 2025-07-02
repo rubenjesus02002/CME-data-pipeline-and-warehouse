@@ -20,13 +20,6 @@ The goal of this project is to set up a data warehouse that integrates Chicago M
     - Stakeholder Misalignment: Conflicting priorities between business and tech team. 
     - Skill Gaps: Lack of knowledge with sepcific tools.
       
-- Tech Stack
-  - Azure
-  - SQL
-  - Python
-  - Tableau
-  - Big Query
-  
 - Costs
   - No costs incurreed. All necessary tools were provided by Baruch College.
     
@@ -64,10 +57,10 @@ Diagram: ![image](https://github.com/user-attachments/assets/4d014130-a906-4662-
 ](https://app.eraser.io/workspace/dYYho9B2s7NpcMDpAAiS?origin=share)
 ### 3. Technical Architecture
 - Define the software and hardware systems involved in the project.
-- List any key technologies, tools, or platforms used. 
-  - Example: 
     - Python for data analysis
     - Azure for cloud computing
+    - Tableau for Visualization
+    - Big Query 
 
 ## D. Modeling
 
