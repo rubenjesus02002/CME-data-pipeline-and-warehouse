@@ -1,4 +1,4 @@
-## A. Problem Context
+![image](https://github.com/user-attachments/assets/a8b0ea47-e8ef-4935-ae86-2139be99a299)## A. Problem Context
 The goal of this project is to set up a data warehouse that integrates Chicago Mercantile Exchange (CME) along with related reference data focused on commodities trading. The goal is to integrate trade data with related reference information such as asset types, contract details, and trade volumes to enable efficient analysis. One of the key objectives is to identify the most frequently traded assets in the commodities market, providing insights into market activity and supporting data-driven decision-making.
 
 ## B. Requirements
@@ -69,8 +69,8 @@ Diagram: ![image](https://github.com/user-attachments/assets/4d014130-a906-4662-
 
 ### 1. Dimensional Modeling
 - Explain the dimensional modeling
-- Example:
- ![Uploading image.png…]()
+<img width="688" alt="Screenshot 2025-07-02 at 7 55 37 PM" src="https://github.com/user-attachments/assets/d336ec3e-4a30-4e66-bae5-536bd9bc3420" />
+
 
 
 
