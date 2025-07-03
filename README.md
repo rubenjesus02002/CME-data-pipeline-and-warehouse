@@ -55,6 +55,8 @@ Diagram: ![image](https://github.com/user-attachments/assets/4d014130-a906-4662-
 ### 2. Data Architecture
 - Describe the structure and flow of the data.
 ](https://app.eraser.io/workspace/dYYho9B2s7NpcMDpAAiS?origin=share)
+![image](https://github.com/user-attachments/assets/1cc311c9-eceb-485b-ae77-c6974a2e33b1)
+
 ### 3. Technical Architecture
 - Define the software and hardware systems involved in the project.
     - Python for data analysis
