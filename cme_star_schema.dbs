@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="CME_STAR_SCHEMA" database="MySql" id="e59cdaf2-782a-40a7-81e1-cd4f2538bd4c" >
+	<schema name="cme_star_schema" >
+		<table name="dim_calendar" prior="dim_calend" generator_rows="100" >
+			<column name="date_id" type="DATE" jt="91" mandatory="y" />
+			<column name="year_number" type="INT" jt="4" />
+			<column name="month_number" type="INT" jt="4" />
+			<column name="day_number" type="INT" jt="4" />
+			<column name="day_name" type="VARCHAR" length="20" jt="12" />
+			<column name="month_name" type="VARCHAR" length="20" jt="12" />
+			<column name="hour_number" type="INT" jt="4" />
+			<index name="pk_dim_calendar" unique="PRIMARY_KEY" >
+				<column name="date_id" />
+			</index>
+		</table>
+		<table name="dim_commodity" prior="dim_commodi" generator_rows="100" >
+			<column name="symbol" type="VARCHAR" length="30" jt="12" mandatory="y" />
+			<column name="inst_und_prod_type" type="VARCHAR" length="50" jt="12" />
+			<column name="asset" type="VARCHAR" length="50" jt="12" />
+			<column name="underlyingproduct" type="VARCHAR" length="50" jt="12" />
+			<column name="securityid" type="VARCHAR" length="50" jt="12" />
+			<column name="securitytype" type="VARCHAR" length="30" jt="12" />
+			<index name="pk_dim_commodity" unique="PRIMARY_KEY" >
+				<column name="symbol" />
+			</index>
+		</table>
+		<table name="dim_exchange" prior="dim_exchang" generator_rows="100" >
+			<column name="exchange_id" type="INT" jt="4" mandatory="y" />
+			<column name="exchange_name" type="VARCHAR" length="100" jt="12" />
+			<column name="marketsegmentid" type="VARCHAR" jt="12" />
+			<index name="pk_dim_exchange" unique="PRIMARY_KEY" >
+				<column name="exchange_id" />
+			</index>
+		</table>
+		<table name="fact_trades" prior="fact_trad" generator_rows="150" >
+			<column name="trade_id" type="INT" jt="4" mandatory="y" />
+			<column name="exchange_id" type="INT" jt="4" mandatory="y" />
+			<column name="date_id" type="DATE" jt="91" mandatory="y" />
+			<column name="symbol" type="VARCHAR" length="30" jt="12" mandatory="y" />
+			<column name="volume" type="INT" jt="4" />
+			<column name="tradequantity" type="INT" jt="4" />
+			<column name="revenue" type="DECIMAL" length="18" decimal="2" jt="3" />
+			<column name="level1askquantity" type="INT" jt="4" />
+			<column name="level1bidorder" type="VARCHAR" length="50" jt="12" />
+			<column name="transactime" type="VARCHAR" length="50" jt="12" />
+			<column name="level1askorder" type="VARCHAR" length="50" jt="12" />
+			<column name="tradeprice" type="DECIMAL" length="18" decimal="2" jt="3" />
+			<column name="currencycode" type="VARCHAR" length="10" jt="12" />
+			<column name="level1askprice" type="DECIMAL" length="18" decimal="2" jt="3" />
+			<column name="level1bidprice" type="DECIMAL" length="18" decimal="2" jt="3" />
+			<column name="level1bidquantity" type="INT" jt="4" />
+			<index name="pk_fact_trades" unique="PRIMARY_KEY" >
+				<column name="trade_id" />
+				<column name="date_id" />
+				<column name="exchange_id" />
+				<column name="symbol" />
+			</index>
+			<fk name="fk_fact_trades_dim_calendar" to_schema="cme_star_schema" to_table="dim_calendar" >
+				<fk_column name="date_id" pk="date_id" />
+			</fk>
+			<fk name="fk_fact_trades_dim_exchange" to_schema="cme_star_schema" to_table="dim_exchange" >
+				<fk_column name="exchange_id" pk="exchange_id" />
+			</fk>
+			<fk name="fk_fact_trades_dim_commodity" to_schema="cme_star_schema" to_table="dim_commodity" >
+				<fk_column name="symbol" pk="symbol" />
+			</fk>
+		</table>
+	</schema>
+	<layout name="Default Diagram" id="31705339-f602-42c6-8d6d-a954ff20fe83" confirmed="y" show_relation="columns" >
+		<entity schema="cme_star_schema" name="fact_trades" color="C1D8EE" x="480" y="280" />
+		<entity schema="cme_star_schema" name="dim_exchange" color="C1D8EE" x="60" y="80" />
+		<entity schema="cme_star_schema" name="dim_commodity" color="C1D8EE" x="180" y="640" />
+		<entity schema="cme_star_schema" name="dim_calendar" color="C1D8EE" x="940" y="60" />
+	</layout>
+</project>
