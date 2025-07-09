@@ -172,7 +172,14 @@ Highlight any key insights gained from the project.
 Summarize the outcomes of the project and any potential next steps.
 
 - What was achieved?
+  - Scalable Data Warehouse - designed for CME trading data
+  - Advanced Analytics - providing deep insights into commodity markets
+  - Real-time pipelines - enabling automated data processing
+  - Actionable Reports - empowering stakeholders with data-driven decision-making
 - How can the results be used moving forward?
+  - Expand Exchanges
+  - AI & Machine Learning
+  - More enhanced analytics
 - Example:
   - The project successfully reduced costs by 20% through process automation.
   - Future work may include expanding the solution to new departments.
