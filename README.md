@@ -88,7 +88,7 @@ Diagram: ![image](https://github.com/user-attachments/assets/4d014130-a906-4662-
 
 ## E. Methodology and Implementation
 
-** This project followed a Waterfall methodology, proceeding through distinct, sequential phases. Each stage was completed before moving to the next, ensuring structured planning, execution, and documentation **
+**This project followed a Waterfall methodology, proceeding through distinct, sequential phases. Each stage was completed before moving to the next, ensuring structured planning, execution, and documentation**
 
 **📌 Project Phases**
 Phase 1: 
@@ -130,10 +130,6 @@ Phase 4:
 
 
 
-Function	Description
-extract_cme_data()	Extract raw CME files
-transform_data()	Clean and structure for loading
-load_to_snowflake()	Load processed data into Snowflake
 
 
 ![image](https://github.com/user-attachments/assets/efee5eb5-6765-4e9b-8b25-dc4939688cc6)
