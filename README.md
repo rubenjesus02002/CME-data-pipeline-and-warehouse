@@ -88,7 +88,7 @@ Diagram: ![image](https://github.com/user-attachments/assets/4d014130-a906-4662-
 
 ## E. Methodology and Implementation
 
-**This project followed a Waterfall methodology, proceeding through distinct, sequential phases. Each stage was completed before moving to the next, ensuring structured planning, execution, and documentation**
+This project followed a Waterfall methodology, proceeding through distinct, sequential phases. Each stage was completed before moving to the next, ensuring structured planning, execution, and documentation
 
 **📌 Project Phases**
 Phase 1: 
