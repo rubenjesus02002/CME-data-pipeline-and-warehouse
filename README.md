@@ -87,23 +87,66 @@ Diagram: ![image](https://github.com/user-attachments/assets/4d014130-a906-4662-
   - ![Medallion Architecture Diagram](path_to_image)
 
 ## E. Methodology and Implementation
-Describe the methodology used in the project and the steps followed during implementation.
 
-- Outline the approach taken (e.g., Agile, Waterfall).
-- Describe key phases, such as development, testing, deployment.
-- Example:
-  - Sprint 1: Setup and Data Collection
-  - Sprint 2: Data Processing and Model Building
+### This project followed a Waterfall methodology, proceeding through distinct, sequential phases. Each stage was completed before moving to the next, ensuring structured planning, execution, and documentation.
+
+**📌 Project Phases**
+Phase 1: 
+- Setup and Data Collection
+- Defined project scope and goals
+- Set up cloud infrastructure and repository
+- Collected CME trading datasets and reference data
+
+Phase 2: 
+- Data Processing and Modeling
+- Cleaned and transformed raw data using Python and DBT
+- Designed the data warehouse schema based on dimensional modeling
+- Implemented medallion architecture: Bronze (raw), Silver (cleaned), Gold (aggregated)
+
+Phase 3: 
 - Metadata Management
-  - Data Dictionary
-  - Mapping Sources and Target Systems
-  - List of all functions
-	- Function 1 
-	- Function 2
-	- Function 3
-- ETL Extract Load Transform
-- ELT Extract Transform Load
-- Tools 
+- Created a comprehensive data dictionary
+- Mapped source fields to warehouse schema
+- Documented ETL/ELT processes
+
+Phase 4: 
+- Visualization and Analysis
+- Built Tableau dashboards and analytical views
+- Supported drill-down analysis and KPI insights
+- Final testing and deployment
+
+
+
+## 🧾 Metadata Management
+**Data Dictionary**
+- Field names, data types, and descriptions
+- Source system mapping
+
+
+**Source-to-Target Mapping**
+- Documented flow from raw data to analytics layer
+
+
+
+    | Function              | Description                     
+| --------------------- | ---------------------------------- |
+| `extract_cme_data()`  | Extract raw CME files              |
+| `transform_data()`    | Clean and structure for loading    |
+| `load_to_snowflake()` | Load processed data into Snowflake |
+
+
+## ETL vs ELT Strategy
+- ETL (Extract → Transform → Load): Used for initial cleaning before DBT
+- ELT (Extract → Load → Transform): Leveraged within Snowflake for DBT transformations
+
+## Tools & Technologies
+- Cloud Platform: Azure
+- Warehouse: Snowflake
+- Orchestration: DBT
+- Database: MySQL
+- Languages: Python
+- BI Tool: Tableau
+
 
 ## F. Visualization
 Provide details of the visualizations created for the project.
