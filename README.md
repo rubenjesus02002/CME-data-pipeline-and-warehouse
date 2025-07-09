@@ -127,12 +127,14 @@ Phase 4:
 - Documented flow from raw data to the analytics layer
 
 
-
-Function	        Description
+🔧 Functions Implemented
+Function	Description
 extract_cme_data()	Extract raw CME files
 transform_data()	Clean and structure for loading
 load_to_snowflake()	Load processed data into Snowflake
-![image](https://github.com/user-attachments/assets/aa335c3c-240e-4c98-b7a5-c5e47f149fc9)
+
+
+![image](https://github.com/user-attachments/assets/efee5eb5-6765-4e9b-8b25-dc4939688cc6)
 
 
 
