@@ -207,6 +207,7 @@ Chart Type: 4-panel bar charts by week
 (Highlight any key insights gained from the project.)
 
 Through comprehensive analysis of CME commodities trading data, several important patterns and strategic insights emerged:
+
 Key insights:
   - Market Concentration Risk
   	- The commodities market shows a strong concentration, with two assets (OZC and OZS) accounting for over 80% of the top 5 traded assets' total volume. This concentration may pose a system risk if there is sudden volatility in these few assets.
