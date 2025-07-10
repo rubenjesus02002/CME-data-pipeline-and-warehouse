@@ -196,9 +196,9 @@ Summarize the outcomes of the project and any potential next steps.
 5. Kleppmann, Martin. Designing Data-Intensive Applications. O’Reilly, 2017.
    
 
-1. Author Last Name, First Name. *Title of Book*. Publisher, Year.
-2. "Title of Article." *Name of Journal*, vol. 1, no. 1, Year, pp. 1-10.
-3. *Title of Website*. Website Publisher, Year, URL.
+Author Last Name, First Name. *Title of Book*. Publisher, Year.
+"Title of Article." *Name of Journal*, vol. 1, no. 1, Year, pp. 1-10.
+*Title of Website*. Website Publisher, Year, URL.
 
 ---
 
