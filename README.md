@@ -186,6 +186,13 @@ Summarize the outcomes of the project and any potential next steps.
 
 ## I. References
 - Provide a list of all references used in the project, formatted according to MLA style.
+  
+1. Inmon, William H. Building the Data Warehouse ; Fourth Edition. John Wiley & Sons, 2005.
+2. Sherman, Rick. Business Intelligence Guidebook: From Data Integration to Analytics. Morgan Kaufman, 2015.
+3. Kimball, Ralph, and Margy Ross. The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling. Wiley, 2013.
+4. Reis, Joe, and Matt Housley. Fundamentals of Data Engineering. O’Reilly Media, Inc, 2022.
+5. Kleppmann, Martin. Designing Data-Intensive Applications. O’Reilly, 2017.
+   
 
 1. Author Last Name, First Name. *Title of Book*. Publisher, Year.
 2. "Title of Article." *Name of Journal*, vol. 1, no. 1, Year, pp. 1-10.
