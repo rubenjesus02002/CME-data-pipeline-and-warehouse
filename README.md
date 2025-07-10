@@ -165,7 +165,7 @@ Provide details of the visualizations created for the project.
   - Market Concentration Risk: The commodities market appear heavily concentrated in just 2 assets(0ZC and 0ZS) which together accounted for over 80% of the top 5's trading volume.
   - Traders prefer flexibility: options let you bet on price moves without needing to buy/sell the actual commodity.
 
-- Provide an overview of what was learned or discovered through data analysis.
+(Provide an overview of what was learned or discovered through data analysis.)
 - Example:
   - High correlation between customer satisfaction and response time.
   - Significant opportunity for cost reduction in supply chain operations.
