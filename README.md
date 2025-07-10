@@ -141,7 +141,6 @@ Phase 4:
 
 
 ## ETL vs ELT Strategy
-- ETL (Extract → Transform → Load): Used for initial cleaning before DBT
 - ELT (Extract → Load → Transform): Leveraged within Snowflake for DBT transformations
 
 ## Tools & Technologies
@@ -154,11 +153,54 @@ Phase 4:
 
 
 ## F. Visualization
-Provide details of the visualizations created for the project.
 
-- Include charts, graphs, and any other visual representation of the data.
-  - ![Visualization Example](path_to_image)
-- Mention any libraries or tools used for visualization (e.g., Matplotlib, Power BI).
+To effectively communicate insights from the CME commodities trading data warehouse, multiple visualizations were created using Tableau. These visualizations provide a clear view of market activity, trading patterns, and asset popularity across time.
+
+## 📊 Visual Insights Included
+**1. Most Traded Asset in Commodities**
+
+Chart Type: Horizontal bar chart
+
+- Insight: OZC and OZS emerged as the top traded assets, with over $13B and $10B in market depth respectively.
+
+- Metric Used: Total Market Depth
+
+- Tools: Tableau, aggregated from Snowflake warehouse
+
+**2. Most Traded Securities**
+Chart Type: Horizontal bar chart by security type
+
+- Insight: Options (OPT) dominate futures (FUT), with over 15 million in trade volume vs. ~5.8 million.
+
+- Metric Used: Total Trade Volume
+
+**3. Weekly Asset Trade Volume Trends**
+
+Chart Type: 4-panel bar charts by week
+
+- Insight: LE consistently appeared as a leading asset across all 4 weeks, with dynamic shifts in other assets such as OZL, ZL, and ZM.
+
+- Metric Used: Count of Revenue
+
+- Purpose: Show weekly variation in asset performance
+
+## 🧰 Tools & Technologies Used
+- Tableau Public/Cloud: For creating and publishing dashboards
+
+- Snowflake: Data warehouse backend
+
+- Python (Pandas, SQLAlchemy): For data preprocessing and transformation
+
+- Azure Cloud: Hosting and storage
+
+## 🖼 Sample Visuals
+![image](https://github.com/user-attachments/assets/e39b58b3-c2ac-487f-a231-cde507ed707a)
+
+
+
+
+![image](https://github.com/user-attachments/assets/64499615-c67b-47ff-b8e0-97c6c9b1c470)
+
 
 ## G. Insights
 (Highlight any key insights gained from the project.)
