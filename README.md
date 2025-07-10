@@ -161,7 +161,9 @@ Provide details of the visualizations created for the project.
 - Mention any libraries or tools used for visualization (e.g., Matplotlib, Power BI).
 
 ## G. Insights
-Highlight any key insights gained from the project.
+(Highlight any key insights gained from the project.)
+  - Market Concentration Risk: The commodities market appear heavily concentrated in just 2 assets(0ZC and 0ZS) which together accounted for over 80% of the top 5's trading volume.
+  - Traders prefer flexibility: options let you bet on price moves without needing to buy/sell the actual commodity.
 
 - Provide an overview of what was learned or discovered through data analysis.
 - Example:
