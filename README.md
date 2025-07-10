@@ -168,6 +168,7 @@ Chart Type: Horizontal bar chart
 - Tools: Tableau, aggregated from Snowflake warehouse
 
 **2. Most Traded Securities**
+
 Chart Type: Horizontal bar chart by security type
 
 - Insight: Options (OPT) dominate futures (FUT), with over 15 million in trade volume vs. ~5.8 million.
