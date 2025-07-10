@@ -204,7 +204,6 @@ Chart Type: 4-panel bar charts by week
 
 
 ## G. Insights
-(Highlight any key insights gained from the project.)
 
 Through comprehensive analysis of CME commodities trading data, several important patterns and strategic insights emerged.
 
@@ -224,7 +223,6 @@ What We Learned:
   - A well-structured data warehouse enables fast, multi-dimensional analysis, supporting decision-making across trading, risk management, and product development.
 
 ## H. Conclusion
-(Summarize the outcomes of the project and any potential next steps.)
 
 - What was achieved?
   - Scalable Data Warehouse - designed for CME trading data
@@ -237,7 +235,6 @@ What We Learned:
   - More enhanced analytics
 
 ## I. References
-(Provide a list of all references used in the project, formatted according to MLA style.)
   
 1. Inmon, William H. Building the Data Warehouse ; Fourth Edition. John Wiley & Sons, 2005.
 2. Sherman, Rick. Business Intelligence Guidebook: From Data Integration to Analytics. Morgan Kaufman, 2015.
