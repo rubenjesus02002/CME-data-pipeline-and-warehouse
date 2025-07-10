@@ -205,16 +205,25 @@ Chart Type: 4-panel bar charts by week
 
 ## G. Insights
 (Highlight any key insights gained from the project.)
-  - Market Concentration Risk: The commodities market appear heavily concentrated in just 2 assets(0ZC and 0ZS) which together accounted for over 80% of the top 5's trading volume.
-  - Traders prefer flexibility: options let you bet on price moves without needing to buy/sell the actual commodity.
 
-(Provide an overview of what was learned or discovered through data analysis.)
-- Example:
-  - High correlation between customer satisfaction and response time.
-  - Significant opportunity for cost reduction in supply chain operations.
+Through comprehensive analysis of CME commodities trading data, several important patterns and strategic insights emerged:
+Key insights:
+  - Market Concentration Risk
+  	- The commodities market shows a strong concentration, with two assets (OZC and OZS) accounting for over 80% of the top 5 traded assets' total volume. This concentration may pose a system risk if there is sudden volatility in these few assets.
+  - Options Dominate Futures
+  	- The volume of options (OPT) traded far surpasses that of future (FUT), indicating a clear trader preference fir flexible financial instruments that allow speculation or hedging without full exposure to the underlying asset.
+  - Weekly Volatility Patterns
+  	- Weekly visualizations revealed fluctuating dominance among certain assets like LE, ZL, and ZM, suggesting that traders actively rotate between contracts based on short-term signals or seasonal cycles.
+  - LE as a Consistent Performer
+  	- Across all four weeks, LE (Live Cattle Futures) consistently ranked among the top traded assets by revenue count, highlighting its strong presence and potential liquidity advantage in the market.
+
+What We Learned:
+  - Visualization is critical in identifying hidden patterns, such as temporal fluctuations and asset-level trading dominance.
+  - Real-time or near real-time data is essential to track dynamic shifts in asset performance.
+  - A well-structured data warehouse enables fast, multi-dimensional analysis, supporting decision-making across trading, risk management, and product development.
 
 ## H. Conclusion
-Summarize the outcomes of the project and any potential next steps.
+(Summarize the outcomes of the project and any potential next steps.)
 
 - What was achieved?
   - Scalable Data Warehouse - designed for CME trading data
@@ -225,23 +234,15 @@ Summarize the outcomes of the project and any potential next steps.
   - Expand Exchanges
   - AI & Machine Learning
   - More enhanced analytics
-- Example:
-  - The project successfully reduced costs by 20% through process automation.
-  - Future work may include expanding the solution to new departments.
 
 ## I. References
-- Provide a list of all references used in the project, formatted according to MLA style.
+(Provide a list of all references used in the project, formatted according to MLA style.)
   
 1. Inmon, William H. Building the Data Warehouse ; Fourth Edition. John Wiley & Sons, 2005.
 2. Sherman, Rick. Business Intelligence Guidebook: From Data Integration to Analytics. Morgan Kaufman, 2015.
 3. Kimball, Ralph, and Margy Ross. The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling. Wiley, 2013.
 4. Reis, Joe, and Matt Housley. Fundamentals of Data Engineering. O’Reilly Media, Inc, 2022.
 5. Kleppmann, Martin. Designing Data-Intensive Applications. O’Reilly, 2017.
-   
-
-- Author Last Name, First Name. *Title of Book*. Publisher, Year.
-- "Title of Article." *Name of Journal*, vol. 1, no. 1, Year, pp. 1-10.
-- *Title of Website*. Website Publisher, Year, URL.
 
 ---
 
