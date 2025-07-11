@@ -140,7 +140,7 @@ Phase 4:
 
 
 
-## ETL vs ELT Strategy
+ELT Strategy
 - ELT (Extract → Load → Transform): Leveraged within Snowflake for DBT transformations
 
 ## Tools & Technologies
