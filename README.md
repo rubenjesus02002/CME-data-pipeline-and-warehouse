@@ -12,7 +12,7 @@ The goal of this project is to set up a data warehouse that integrates Chicago M
     - Data Engineer: Builds and maintains data pipelines and infrastructure.
 
 - Risks
-  - Identify potential risks and challenges.
+    - Identify potential risks and challenges.
     - Data privacy concerns: Sensative Data 
     - Integration with existing systems
     - Data Quality Issues: Inconsistent, incomplete, or inaccurate data
@@ -24,15 +24,29 @@ The goal of this project is to set up a data warehouse that integrates Chicago M
   - No costs incurreed. All necessary tools were provided by Baruch College.
     
 - Timeline
-    - Phase 1: Problem Context: Requirements Analysis (Week 1)
-    - Phase 2: Requirements: Business, Functional and Data Requirements (Week 2)
-    - Phase 3: Architecture: Information, Data and Technical Architecture (Week 3)
-    - Phase 4: Modeling: Dimensional/ Medallion Modeling (Week 4) 
+   Phase 1: Problem Context: Requirements Analysis (Week 1)
+Defined the business problem and project scope for building a CME data warehouse.
+
+Phase 2: Requirements: Business, Functional and Data Requirements (Week 2)
+Gathered and documented data, functional, and reporting requirements from stakeholders.
+
+Phase 3: Architecture: Information, Data and Technical Architecture (Week 3)
+Designed the end-to-end data architecture using Snowflake, DBT, and Google Colab.
+
+Phase 4: Modeling: Dimensional/ Medallion Modeling (Week 4)
+Built a medallion architecture with dimensional models to support analytical queries.
+
+Phase 5: ETL Process (Week 5)
+Developed and automated ETL pipelines using Python, SQL, and DBT into Snowflake.
+
+Phase 6: Visualization and Insights (Week 6)
+Created Tableau dashboards to deliver actionable insights on CME market data.
       
 - Benefits
-    - Provide insights into market activity
-    - Support data-driven decision-making
-    - Help stakeholders understand where trade volume is most prominent
+   - Provided insights into overall market activity.
+   - Supported data-driven decisions using trade volume and revenue data.
+   - Identified where trade volume was most concentrated across instruments.
+   - Analyzed which CME/CBOT assets generated the highest revenue.
 
 ### 2. Business Requirements
 	◦	Set up a data warehouse containing CME data and related reference data.
