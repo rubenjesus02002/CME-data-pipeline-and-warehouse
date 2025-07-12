@@ -25,4 +25,4 @@ date_cte AS (
 )
 
 SELECT * 
-FROM date_cte
+FROM date_cte 
