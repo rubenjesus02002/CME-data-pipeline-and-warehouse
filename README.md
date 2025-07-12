@@ -143,8 +143,7 @@ Phase 4:
 **Source-to-Target Mapping**
 - Documented flow from raw data to the analytics layer
 
-
-<img width="685" height="385" alt="Screenshot 2025-07-11 at 10 50 35 PM" src="https://github.com/user-attachments/assets/e2679da4-322c-4e8d-8ebc-48cf7b19ad36" />
+<img width="677" height="387" alt="Screenshot 2025-07-11 at 10 51 46 PM" src="https://github.com/user-attachments/assets/bbb1e7fc-6e6d-4811-bba3-731d72fd575f" />
 
 
 
