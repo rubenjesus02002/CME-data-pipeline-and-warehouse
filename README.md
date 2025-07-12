@@ -144,6 +144,7 @@ Phase 4:
 - Documented flow from raw data to the analytics layer
 
 
+<img width="685" height="385" alt="Screenshot 2025-07-11 at 10 50 35 PM" src="https://github.com/user-attachments/assets/e2679da4-322c-4e8d-8ebc-48cf7b19ad36" />
 
 
 
