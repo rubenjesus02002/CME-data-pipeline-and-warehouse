@@ -24,7 +24,8 @@ The goal of this project is to set up a data warehouse that integrates Chicago M
   - No costs incurreed. All necessary tools were provided by Baruch College.
     
 - Timeline
-   Phase 1: Problem Context: Requirements Analysis (Week 1)
+
+Phase 1: Problem Context: Requirements Analysis (Week 1)
 Defined the business problem and project scope for building a CME data warehouse.
 
 Phase 2: Requirements: Business, Functional and Data Requirements (Week 2)
