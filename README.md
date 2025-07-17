@@ -6,10 +6,10 @@ The goal of this project is to set up a data warehouse that integrates Chicago M
 ### 1. Requirements Analysis
 - Business Personas
   - Key stakeholders and their roles.
-    - IT Manager: Oversees technical implementation.
-    - Project Manager: Coordinates team tasks, timelines, and communication.
-    - Data Analyst: Responsible for data analysis and reporting.
-    - Data Engineer: Builds and maintains data pipelines and infrastructure.
+    - IT Manager (Jefferson Bien-Aime - Professor): Oversees technical implementation.
+    - Project Manager (Ruben - Student): Coordinates team tasks, timelines, and communication.
+    - Data Analyst (Ruben -  Student): Responsible for data analysis and reporting.
+    - Data Engineer (Samin - Student): Builds and maintains data pipelines and infrastructure.
 
 - Risks
     - Identify potential risks and challenges.
@@ -21,8 +21,12 @@ The goal of this project is to set up a data warehouse that integrates Chicago M
     - Skill Gaps: Lack of knowledge with sepcific tools.
       
 - Costs
-  - No costs incurreed. All necessary tools were provided by Baruch College.
-    
+  All necessary tools were provided by Baruch College.
+  Microsoft Azure - Free Trial
+  Snowflake - Free Trial
+  DBT - Free Trial
+  Tableau - Free Trial
+
 - Timeline
 
 Phase 1: Problem Context: Requirements Analysis (Week 1)
@@ -88,9 +92,6 @@ Diagram: ![image](https://github.com/user-attachments/assets/4d014130-a906-4662-
 - Explain the dimensional modeling
 <img width="688" alt="Screenshot 2025-07-02 at 7 55 37 PM" src="https://github.com/user-attachments/assets/d336ec3e-4a30-4e66-bae5-536bd9bc3420" />
 
-
-
-
 ### 2. Medallion Architecture
 - Explain the medallion architecture and its stages: Bronze, Silver, Gold.
 - Example:
@@ -106,7 +107,6 @@ Diagram: ![image](https://github.com/user-attachments/assets/4d014130-a906-4662-
 This project followed a Waterfall methodology, proceeding through distinct, sequential phases. Each stage was completed before moving to the next, ensuring structured planning, execution, and documentation
 
 📌 Project Phases
-
 
 Phase 1: 
 - Setup and Data Collection
@@ -132,28 +132,17 @@ Phase 4:
 - Supported drill-down analysis and KPI insights
 - Final testing and deployment
 
-
-
 ## 🧾 Metadata Management
 **Data Dictionary**
 - Field names, data types, and descriptions
 - Source system mapping
-
 
 **Source-to-Target Mapping**
 - Documented flow from raw data to the analytics layer
 
 <img width="677" height="387" alt="Screenshot 2025-07-11 at 10 51 46 PM" src="https://github.com/user-attachments/assets/bbb1e7fc-6e6d-4811-bba3-731d72fd575f" />
 
-
-
-
-
 ![image](https://github.com/user-attachments/assets/efee5eb5-6765-4e9b-8b25-dc4939688cc6)
-
-
-
-
 
 ELT Strategy
 - ELT (Extract → Load → Transform): Leveraged within Snowflake for DBT transformations
@@ -165,7 +154,6 @@ ELT Strategy
 - Database: MySQL
 - Languages: Python
 - BI Tool: Tableau
-
 
 ## F. Visualization
 
@@ -212,11 +200,7 @@ Chart Type: 4-panel bar charts by week
 ## 🖼 Visualization
 ![image](https://github.com/user-attachments/assets/e39b58b3-c2ac-487f-a231-cde507ed707a)
 
-
-
-
 ![image](https://github.com/user-attachments/assets/64499615-c67b-47ff-b8e0-97c6c9b1c470)
-
 
 ## G. Insights
 
