@@ -209,7 +209,7 @@ Chart Type: 4-panel bar charts by week
 
 - Azure Cloud: Hosting and storage
 
-## 🖼 Sample Visuals
+## 🖼 Visualization
 ![image](https://github.com/user-attachments/assets/e39b58b3-c2ac-487f-a231-cde507ed707a)
 
 
