@@ -106,7 +106,7 @@ Diagram: ![image](https://github.com/user-attachments/assets/4d014130-a906-4662-
 
 This project followed a Waterfall methodology, proceeding through distinct, sequential phases. Each stage was completed before moving to the next, ensuring structured planning, execution, and documentation
 
-📌 Project Phases
+Project Phases
 
 Phase 1: 
 - Setup and Data Collection
@@ -188,7 +188,7 @@ Chart Type: 4-panel bar charts by week
 
 - Purpose: Show weekly variation in asset performance
 
-## 🧰 Tools & Technologies Used
+## Tools & Technologies Used
 - Tableau Public/Cloud: For creating and publishing dashboards
 
 - Snowflake: Data warehouse backend
@@ -197,7 +197,7 @@ Chart Type: 4-panel bar charts by week
 
 - Azure Cloud: Hosting and storage
 
-## 🖼 Visualization
+## Visualization
 ![image](https://github.com/user-attachments/assets/e39b58b3-c2ac-487f-a231-cde507ed707a)
 
 ![image](https://github.com/user-attachments/assets/64499615-c67b-47ff-b8e0-97c6c9b1c470)
