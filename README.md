@@ -4,15 +4,13 @@ The goal of this project is to set up a data warehouse that integrates Chicago M
 ## B. Requirements
 
 ### 1. Requirements Analysis
-- Business Personas
-  - Key stakeholders and their roles.
+- Business Personas: Key stakeholders and their roles.
     - IT Manager (Jefferson Bien-Aime - Professor): Oversees technical implementation.
     - Project Manager (Ruben - Student): Coordinates team tasks, timelines, and communication.
-    - Data Analyst (Ruben -  Student): Responsible for data analysis and reporting.
-    - Data Engineer (Samin - Student): Builds and maintains data pipelines and infrastructure.
+    - Data Engineer (Ruben - Student): Builds and maintains data pipelines and infrastructure.
+    - Data Analyst (Samin -  Student): Responsible for data analysis and reporting.
 
-- Risks
-    - Identify potential risks and challenges.
+- Risks: Identify potential risks and challenges.
     - Data privacy concerns: Sensative Data 
     - Integration with existing systems
     - Data Quality Issues: Inconsistent, incomplete, or inaccurate data
@@ -21,11 +19,11 @@ The goal of this project is to set up a data warehouse that integrates Chicago M
     - Skill Gaps: Lack of knowledge with sepcific tools.
       
 - Costs
-  All necessary tools were provided by Baruch College.
-  Microsoft Azure - Free Trial
-  Snowflake - Free Trial
-  DBT - Free Trial
-  Tableau - Free Trial
+    - All necessary tools were provided by Baruch College.
+    - Microsoft Azure - Free Trial
+    - Snowflake - Free Trial
+    - DBT - Free Trial
+    - Tableau - Free Trial
 
 - Timeline
 
