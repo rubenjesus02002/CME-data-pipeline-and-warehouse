@@ -27,22 +27,22 @@ The goal of this project is to set up a data warehouse that integrates Chicago M
 
 - Timeline
 
-Phase 1: Problem Context: Requirements Analysis (Week 1)
+Phase 1: Problem Context and Requirements Analysis 
 Defined the business problem and project scope for building a CME data warehouse.
 
-Phase 2: Requirements: Business, Functional and Data Requirements (Week 2)
+Phase 2: Business, Functional and Data Requirements 
 Gathered and documented data, functional, and reporting requirements from stakeholders.
 
-Phase 3: Architecture: Information, Data and Technical Architecture (Week 3)
+Phase 3: Information, Data and Technical Architecture 
 Designed the end-to-end data architecture using Snowflake, DBT, and Google Colab.
 
-Phase 4: Modeling: Dimensional/ Medallion Modeling (Week 4)
+Phase 4: Dimensional/ Medallion Modeling 
 Built a medallion architecture with dimensional models to support analytical queries.
 
-Phase 5: ETL Process (Week 5)
+Phase 5: ETL Process
 Developed and automated ETL pipelines using Python, SQL, and DBT into Snowflake.
 
-Phase 6: Visualization and Insights (Week 6)
+Phase 6: Visualization and Insights 
 Created Tableau dashboards to deliver actionable insights on CME market data.
       
 - Benefits
