@@ -5,7 +5,7 @@ The goal of this project is to set up a data warehouse that integrates Chicago M
 
 ### 1. Requirements Analysis
 - Business Personas: Key stakeholders and their roles.
-    - IT Manager (Jefferson Bien-Aime - Professor): Oversees technical implementation.
+    - Database Administrator (Jefferson Bien-Aime - Professor): Oversees technical implementation.
     - Project Manager (Ruben - Student): Coordinates team tasks, timelines, and communication.
     - Data Engineer (Ruben - Student): Builds and maintains data pipelines and infrastructure.
     - Data Analyst (Samin -  Student): Responsible for data analysis and reporting.
